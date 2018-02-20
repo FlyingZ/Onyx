@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1517835420 source:c:\proiecte\oana\dsfas\main.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+	"include/ProcessCommand.h"
+	"include/Tree.h"
+
+1517791789 c:\proiecte\oana\dsfas\include\processcommand.h
+	<string>
+	<vector>
+	"../include/Tree.h"
+
+1517831499 c:\proiecte\oana\dsfas\include\tree.h
+	"../include/Node.h"
+
+1517831023 c:\proiecte\oana\dsfas\include\node.h
+	<vector>
+	<string>
+
+1517828700 source:c:\proiecte\oana\dsfas\src\node.cpp
+	"../include/Node.h"
+	<string>
+
+1517834385 source:c:\proiecte\oana\dsfas\src\processcommand.cpp
+	"../include/ProcessCommand.h"
+	<iostream>
+	<vector>
+	<list>
+	<string>
+	<stdlib.h>
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<algorithm>
+
+1517835528 source:c:\proiecte\oana\dsfas\src\tree.cpp
+	"../include/Tree.h"
+	<iostream>
+	<string>
+	<algorithm>
+
